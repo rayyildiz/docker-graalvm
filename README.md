@@ -10,12 +10,13 @@ GraalVM Community Edition. [More info](https://hub.docker.com/r/rayyildiz/graalv
 
 Link: https://hub.docker.com/r/rayyildiz/graalvm/
 
-Current java : Latest version : **1.0.0-rc1**
+Current java : Latest version : **1.0.0-rc2**
 
 Tags:
 
 * 1.0.0-rc1
-* latest (*1.0.0-rc1*)
+* 1.0.0-rc2
+* latest ( **1.0.0-rc2** )
 
 
 Usage
