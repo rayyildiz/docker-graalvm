@@ -1,9 +1,7 @@
 GraalVM
 ===
 
-[![](https://images.microbadger.com/badges/image/rayyildiz/graalvm.svg)](https://microbadger.com/images/rayyildiz/graalvm "GraalVM")
-[![Docker Pulls](https://img.shields.io/docker/pulls/rayyildiz/graalvm.svg)](https://hub.docker.com/r/rayyildiz/graalvm/)
-[![GitHub license](https://img.shields.io/github/license/rayyildiz/docker-graalvm.svg)](https://github.com/rayyildiz/docker-graalvm/blob/master/LICENSE)
+[![](https://images.microbadger.com/badges/image/rayyildiz/graalvm.svg)](https://microbadger.com/images/rayyildiz/graalvm "GraalVM") [![Docker Pulls](https://img.shields.io/docker/pulls/rayyildiz/graalvm.svg)](https://hub.docker.com/r/rayyildiz/graalvm/) [![GitHub license](https://img.shields.io/github/license/rayyildiz/docker-graalvm.svg)](https://github.com/rayyildiz/docker-graalvm/blob/master/LICENSE)
 
 
 GraalVM Community Edition. [More info](https://hub.docker.com/r/rayyildiz/graalvm/)
@@ -22,12 +20,13 @@ Tags:
 Usage
 ===
 
+
 Print java version: ```docker run rayyildiz/graalvm java -version```
 
 Compile Java file ```docker run rayyildiz/graalvm javac HelloWorld.java```
 
-Run Java file ```docker run rayyildiz/graalvm java HelloWorld```  (After compile)
 
+Run Java file ```docker run rayyildiz/graalvm java HelloWorld```  (After compile)
 
 Create a native image ```docker run rayyildiz/graalvm native-image HelloWorld```  (After compile)
 
