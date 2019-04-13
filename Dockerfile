@@ -1,7 +1,7 @@
 FROM  ubuntu
 LABEL maintainer="Ramazan AYYILDIZ <rayyildiz@gmail.com>"
 
-ENV   GRAAL_VERSION=1.0.0-rc7
+ENV   GRAAL_VERSION=1.0.0-rc15
 ENV   GRAAL_CE_URL=https://github.com/oracle/graal/releases/download/vm-${GRAAL_VERSION}/graalvm-ce-${GRAAL_VERSION}-linux-amd64.tar.gz
 
 RUN   apt-get update && \
