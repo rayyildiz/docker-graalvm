@@ -28,12 +28,12 @@ Usage
 
 Print java version: ```docker run rayyildiz/graalvm java -version```
 
-Compile Java file ```docker run rayyildiz/graalvm javac HelloWorld.java```
+Compile Java file ```docker run $PWD:/src rayyildiz/graalvm javac HelloWorld.java```
 
 
-Run Java file ```docker run rayyildiz/graalvm java HelloWorld```  (After compile)
+Run Java file ```docker run $PWD:/src rayyildiz/graalvm java HelloWorld```  (After compile)
 
-Create a native image ```docker run rayyildiz/graalvm native-image HelloWorld```  (After compile)
+Create a native image ```docker run  $PWD:/src rayyildiz/graalvm native-image HelloWorld```  (After compile)
 
 
 ```java
