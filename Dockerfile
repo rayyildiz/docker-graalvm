@@ -1,9 +1,8 @@
 FROM  ubuntu
 LABEL maintainer="Ramazan AYYILDIZ <rayyildiz@gmail.com>"
 
-ENV   GRAAL_VERSION=1.0.0-rc15
-ENV   GRAAL_CE_URL=https://github.com/oracle/graal/releases/download/vm-${GRAAL_VERSION}/graalvm-ce-${GRAAL_VERSION}-linux-amd64.tar.gz
-
+ENV   GRAAL_VERSION=19.0.0
+ENV   GRAAL_CE_URL=https://github.com/oracle/graal/releases/download/vm-${GRAAL_VERSION}/graalvm-ce-linux-amd64-${GRAAL_VERSION}.tar.gz
 RUN   apt-get update && \
       apt-get install -y wget tar gzip
 
@@ -23,3 +22,5 @@ RUN   apt-get clean
 ENV   JAVA_HOME=/usr/lib/jvm/graalvm/graalvm-ce-${GRAAL_VERSION}
 ENV   PATH=$PATH:$JAVA_HOME/bin
 ENV   GRAALVM_HOME=/usr/lib/jvm/graalvm/graalvm-ce-${GRAAL_VERSION}
+
+RUN   gu install native-image
