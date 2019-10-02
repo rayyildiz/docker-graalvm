@@ -8,7 +8,7 @@ GraalVM Community Edition. [More info](https://hub.docker.com/r/rayyildiz/graalv
 
 Link: https://hub.docker.com/r/rayyildiz/graalvm/
 
-Current java : Latest version : **19.1.1**
+Current java : Latest version : **19.2.0**
 
 Tags:
 
@@ -18,8 +18,8 @@ Tags:
 * 19.1.0
 * 19.1.0
 * 19.1.1
-* slim (**19.1.1**)
-* latest ( **19.1.1** )
+* slim (**19.2.0**)
+* latest ( **19.2.0** )
 
 Usage
 ===
